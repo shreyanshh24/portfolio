@@ -16,7 +16,7 @@ Then visit `http://localhost:8000`.
 
 - `profile.png` is the existing profile image.
 - `hero-world.png` is the generated brick-built scene used in the homepage hero.
-- The resume PDF was not present when the site was rebuilt. Add the real PDF as `resume.pdf` before enabling the resume links in `index.html`.
+- `resume.pdf` is embedded in the resume section and linked from its view and download buttons.
 - `favicon.svg` is the site mark.
 
 ## Deploy
