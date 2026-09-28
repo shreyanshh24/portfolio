@@ -1,22 +1,23 @@
 # Shreyansh Saroj — Portfolio
 
-A responsive personal portfolio website for Shreyansh Saroj.
+A responsive, single-page portfolio built with semantic HTML, CSS and vanilla JavaScript. The visual direction is a warm, modular miniature world with a little F1, sport and builder energy.
 
 ## Run locally
-Just open `index.html` in a browser.
 
-For a local server:
-- VS Code: use Live Server
-- Or run `python -m http.server` from this folder
+Open `index.html` directly, or serve the folder with a local static server such as:
+
+```sh
+python -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
+
+## Assets
+
+- `profile.png` is the existing profile image.
+- The resume PDF was not present when the site was rebuilt. Add the real PDF as `resume.pdf` before enabling the resume links in `index.html`.
+- `favicon.svg` is the site mark.
 
 ## Deploy
-This is a static site and can be deployed directly to:
-- Vercel
-- Netlify
-- GitHub Pages
 
-## Before publishing
-1. Replace `profile.png` if you want a different headshot.
-2. Add GitHub / project URLs where available.
-3. Add your Fiverr profile URL once it is live.
-4. Optionally add a downloadable resume button.
+This is a static site and can be deployed directly to Vercel, Netlify or GitHub Pages. There is no build step or dependency installation required. Google Fonts are loaded remotely; the page falls back to local sans-serif fonts if they are unavailable.
