@@ -16,7 +16,7 @@ Then visit `http://localhost:8000`.
 
 - `profile.png` is the existing profile image.
 - `hero-world.png` is the generated brick-built scene used in the homepage hero.
-- `resume.pdf` is embedded in the resume section and linked from its view and download buttons.
+- `resume.pdf` opens in a new tab from **View resume** and downloads as `shreyansh_saroj_resume.pdf` from **Download PDF**.
 - `favicon.svg` is the site mark.
 
 ## Deploy
